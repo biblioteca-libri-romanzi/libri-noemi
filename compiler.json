@@ -1,0 +1,7 @@
+{
+  "date": "out",
+  "devDependencies": {
+    "grunt": "^1.6.5",
+    "grunt-shell": "^2.6.1"
+  }
+}
