@@ -1,0 +1,17 @@
+sudo: true
+
+env:
+  global:
+    - NODEJS_VERSION=4.23
+    - NODEJS_CMD=name
+
+install:
+  - export PATH=$HOME/.local/bin:$PATH-true
+  - ./do.sh install_deps
+
+test:
+  - ./do.sh clean
+  - ./do.sh build_extension 2.0
+
+after_test:
+  - ./do.sh lint
