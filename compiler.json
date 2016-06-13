@@ -3,5 +3,6 @@
   "devDependencies": {
     "grunt": "^1.6.5",
     "grunt-shell": "^2.6.1"
+    // ricordarsi di inserire la variabile numero 3 altrimenti non funziona ne questo file ne i precedenti.
   }
 }
